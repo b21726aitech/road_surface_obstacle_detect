@@ -4,13 +4,15 @@
 - identify_gutter：側溝の識別
 
 ## ビルド方法
-任意のワークスペース内のsrc内にファイルを配置し、ワークスペースにて以下を実行
+任意のワークスペース内のsrc内にgit cloneし、ワークスペースにて以下を実行
 ```
 catkin_make
 ```
 
 ## 使用方法
-"/points_ground"トピックをPublishした後以下を各端末で実行
+1. Autowareで"ndt_matching"を実行し、車両の自己位置推定を行う
+2. Autowareで"ray_ground_filter"を実行し、"/points_ground"トピックをPublish
+3. 以下を各端末で実行
 
 ### ポットホール・ハンプ識別
 ```
