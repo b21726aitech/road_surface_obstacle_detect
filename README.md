@@ -10,9 +10,12 @@ catkin_make
 ```
 
 ## 使用方法
-1. Autowareで"ndt_matching"を実行し、車両の自己位置推定を行う
-2. Autowareで"ray_ground_filter"を実行し、"/points_ground"トピックをPublish
-3. 以下を各端末で実行
+1. LiDARからの点群"/points_raw"トピックをPublish
+2. Autowareで"voxel_grid_filter"を実行
+3. Autowareで"ndt_mapping"を実行
+4. Autowareで"ndt_matching"を実行
+5. Autowareで"ray_ground_filter"を実行し、"/points_ground"トピックをPublish
+6. 以下を各端末で実行
 
 ### ポットホール・ハンプ識別
 ```
