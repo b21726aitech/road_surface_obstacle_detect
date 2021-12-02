@@ -15,14 +15,14 @@
 ## 実行環境
 
 | Hardware | Description |
-| --- | --- |
+| :---: | :--- |
 | CPU | Intel®Core i9-9900K CPU @ 3.6GHz x 16 |
 | Memory | 32GB |
 | GPU | NVIDIA GeForce RTX 2080 |
 | LiDAR | VLP-16 |
 
 | Software | Description |
-| --- | --- |
+| :---: | :--- |
 | OS | Ubuntu 18.04 (LTS) Bionic beaver |
 | ROS | Melodic |
 | Autoware | Autoware.AI 1.14.1 |
