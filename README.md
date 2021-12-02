@@ -11,7 +11,10 @@
 ## 実行例
 
 LGSVL Simulatorでの実行例  
-仮想環境はUnityを用いて作成
+仮想環境はUnityを用いて作成  
+- ポットホール：青
+- ハンプ：赤
+- 側溝：緑
 
 ![Example Gif](/images/virtual-10.gif)
 
