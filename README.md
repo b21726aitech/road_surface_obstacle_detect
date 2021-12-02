@@ -25,7 +25,7 @@ LGSVL Simulatorでの実行例
 | CPU | Intel®Core i9-9900K CPU @ 3.6GHz x 16 |
 | Memory | 32GB |
 | GPU | NVIDIA GeForce RTX 2080 |
-| LiDAR | VLP-16 |
+| LiDAR | Velodyne LiDAR VLP-16 |
 
 | Software | Description |
 | :---: | :---: |
