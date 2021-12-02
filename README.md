@@ -13,7 +13,7 @@
 仮想環境LGSVL Simulatorでの実行例  
 環境はUnityを用いて作成
 
-![Example Gif](/images/virtual10.gif)
+![Example Gif](/images/virtual-10.gif)
 
 ## 実行環境
 
