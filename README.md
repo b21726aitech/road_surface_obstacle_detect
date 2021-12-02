@@ -10,8 +10,8 @@
 
 ## 実行例
 
-仮想環境LGSVL Simulatorでの実行例  
-環境はUnityを用いて作成
+LGSVL Simulatorでの実行例  
+仮想環境はUnityを用いて作成
 
 ![Example Gif](/images/virtual-10.gif)
 
