@@ -1,13 +1,16 @@
 # road_surface_obstacle_detect
 ## 概要
-未整備な路面環境での運転支援を行うため, LiDARを用いてリアルタイムで路面環境識別を行う．
-路面障害物の識別は, ポットホール、ハンプ、側溝を対象とする．
-このシステムでは未整備道路環境で, 低速での遠隔運転による運転支援を提供することを目的としている．
+
+未整備な路面環境での運転支援を行うため, LiDARを用いてリアルタイムで路面環境識別を行う．  
+路面障害物の識別は, ポットホール、ハンプ、側溝を対象とする．  
+このシステムでは未整備道路環境で, 低速での遠隔運転による運転支援を提供することを目的としている．  
+
 - change_ground_filter：ポットホール、ハンプの識別
 - identify_gutter：側溝の識別
 
 ## 実行例
-仮想環境LGSVL Simulatorでの実行例
+
+仮想環境LGSVL Simulatorでの実行例  
 環境はUnityを用いて作成
 
 ![Example Gif](/images/virtual10.gif)
@@ -33,12 +36,14 @@
 
 
 ## ビルド方法
+
 任意のワークスペース内のsrc内にgit cloneし、ワークスペースにて以下を実行
 ```
 catkin_make
 ```
 
 ## 使用方法
+
 1. LiDARからの点群"/points_raw"トピックをPublish
 2. Autowareで"voxel_grid_filter"を実行
 3. Autowareで"ndt_mapping"を実行
@@ -47,6 +52,7 @@ catkin_make
 6. 以下を各端末で実行
 
 ### ポットホール・ハンプ識別
+
 ```
 source devel/setup.bash & rosrun change_ground_filter identify_front_vehicle
 ```
@@ -64,6 +70,7 @@ source devel/setup.bash & rosrun change_ground_filter clusters_tracker
 ```
 
 ### 側溝識別
+
 ```
 source devel/setup.bash & rosrun identify_gutter identify_gutter
 ```
