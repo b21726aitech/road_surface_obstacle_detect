@@ -50,7 +50,7 @@ catkin_make
 3. Autowareで"ndt_mapping"を実行
 4. Autowareで"ndt_matching"を実行
 5. Autowareで"ray_ground_filter"を実行し、"/points_ground"トピックをPublish
-6. 以下を各端末で実行
+6. 以下をそれぞれ新しい端末で実行
 
 ### ポットホール・ハンプ識別
 
