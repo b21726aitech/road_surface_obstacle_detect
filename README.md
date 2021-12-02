@@ -27,7 +27,7 @@ LGSVL Simulatorでの実行例
 | Software | Description |
 | :---: | :---: |
 | OS | Ubuntu 18.04 (LTS) Bionic beaver |
-| ROS | Melodic |
+| ROS | Melodic Morenia |
 | Autoware | Autoware.AI 1.14.1 |
 | PCL | 1.7.2-14ubuntu0.1 |
 | LGSVL Simulator | 2019.04 |
